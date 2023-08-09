@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import LandingSection from './components/LandingSection';
 import AboutSkills from './components/AboutSkills'
 import Portfolio from './components/Porfolio';
+import Contact from './components/Contact';
 
 function App() {
   const appStyle = {
@@ -18,6 +19,7 @@ return (
       <LandingSection />
       <AboutSkills />
       <Portfolio />
+      <Contact />
   </div>
 );
 

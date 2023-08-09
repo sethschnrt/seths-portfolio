@@ -141,7 +141,7 @@
  font-size: 25px;
  text-align: center;
  font-family: "pretendard", sans-serif;
- font-weight: 350;
+ font-weight: 300;
  font-style: normal;
 }
 
@@ -206,6 +206,15 @@
 .project-content h3 {
   font-size: 1.5em;
   margin-bottom: 0.5em;
+  font-family: "pretendard", sans-serif;
+ font-weight: 350;
+ font-style: normal;
+}
+
+.project-content p {
+  font-family: "pretendard", sans-serif;
+ font-weight: 300;
+ font-style: normal;
 }
 
 /* buttons styling */
@@ -232,4 +241,64 @@
 
 .btn-live:hover, .btn-repo:hover {
   background-color: #eef0f2; 
+}
+
+/* Contact Section */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background-color: #1c1c1c;
+  color: #ecebe4;
+}
+
+.contact-form {
+  max-width: 1000px;
+  max-height: 400px;
+  width: 100%;
+  padding: 1em;
+  background-color: #daddd8; /* Or any other color that fits the theme */
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  color:#1c1c1c;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.1em;
+}
+
+label {
+  margin-bottom: 0.1em;
+}
+
+input, textarea {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 0.8em 1.5em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 0.2em;
 }
