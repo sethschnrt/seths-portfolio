@@ -70,14 +70,15 @@
 .portrait {
   width: 250px;
   height: auto;
-  border-color: #EEF0F2;
-  border-width: 2px;
+  border-color: #ecebe4;
+  border-width: 5px;
   border-style: solid;
+  border-radius: 20px;
 }
 
 .overlay-content {
   text-align: left;
-  color: #EEF0F2;
+  color: #ecebe4;
   margin-left: 20px;
   font-family: "pretendard", sans-serif;
    font-weight: 600;
@@ -140,10 +141,95 @@
  font-size: 25px;
  text-align: center;
  font-family: "pretendard", sans-serif;
- font-weight: 300;
+ font-weight: 350;
  font-style: normal;
 }
 
 .listFlex {
   margin-right: 25px;
+}
+
+/* Porfolio Section */ 
+
+.portfolio-section {
+  background-color: #1c1c1c;
+  padding: 2em 2em 2em 2em;
+  border-radius: 20%;
+  text-align: center; 
+}
+
+.portfolio-section h2 {
+  margin-bottom: 1em; 
+  color: #ecebe4; 
+  font-family: "pretendard", sans-serif;
+ font-weight: 350;
+ font-style: normal;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-wrapper {
+  flex: 0 1 calc(50% - 2%); 
+  margin: 1%;  
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  background-color: #DADDD8;
+  color: #1c1c1c;
+  border-radius: 20px;
+  border: 5px solid #ecebe4;
+  margin-bottom: 20px; 
+}
+
+.project-image {
+  max-width: 50%; 
+  height: auto;
+  margin-right: 1em;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+
+.project-content {
+  flex: 1;
+  background-color: #daddd8;
+  padding: 1em;
+  color: #1c1c1c;
+}
+
+.project-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* buttons styling */
+.project-buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  margin-top: 20px; 
+}
+
+.btn-live, .btn-repo {
+  padding: 10px 15px;
+  border: solid 5px #ecebe4;
+  border-radius: 20px; 
+  text-decoration: none;
+  text-align: center;
+  background-color: #daddd8; 
+  color: #1c1c1c; 
+  transition: background-color 0.3s ease;
+  font-family: "pretendard", sans-serif;
+ font-weight: 350;
+ font-style: normal;
+}
+
+.btn-live:hover, .btn-repo:hover {
+  background-color: #eef0f2; 
 }

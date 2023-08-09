@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import LandingSection from './components/LandingSection';
 import AboutSkills from './components/AboutSkills'
+import Portfolio from './components/Porfolio';
+
 function App() {
   const appStyle = {
     backgroundColor: colors.PRIMARY,
@@ -15,7 +17,7 @@ return (
       <Navbar />
       <LandingSection />
       <AboutSkills />
-      {/* Rest of your app */}
+      <Portfolio />
   </div>
 );
 
