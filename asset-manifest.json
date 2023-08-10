@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/seths-portfolio/static/css/main.9b45402d.css",
+    "main.js": "/seths-portfolio/static/js/main.212b7937.js",
+    "static/js/787.f2cdb3ab.chunk.js": "/seths-portfolio/static/js/787.f2cdb3ab.chunk.js",
+    "static/media/boatt_establishing_shot_during_golden_hour__Douglass_Fir_Forest_44a0de50-fcf3-4436-a0c4-dca4b2d26adf.png": "/seths-portfolio/static/media/boatt_establishing_shot_during_golden_hour__Douglass_Fir_Forest_44a0de50-fcf3-4436-a0c4-dca4b2d26adf.867161e5913bc548da97.png",
+    "static/media/blurb.png": "/seths-portfolio/static/media/blurb.ae39ef565790f9d96625.png",
+    "static/media/employee-tracker.png": "/seths-portfolio/static/media/employee-tracker.c41204542e0057f6a06a.png",
+    "static/media/weather-dashboard.png": "/seths-portfolio/static/media/weather-dashboard.f48801bd2fb5453beecd.png",
+    "static/media/IMG_0189.jpeg": "/seths-portfolio/static/media/IMG_0189.7f4e68bfcfa181ca7dbb.jpeg",
+    "static/media/tech-blog.png": "/seths-portfolio/static/media/tech-blog.58494548e969ffb4e6ee.png",
+    "static/media/Note-Taker.png": "/seths-portfolio/static/media/Note-Taker.479bd8f4d8c622f0c47c.png",
+    "static/media/meal-mate.png": "/seths-portfolio/static/media/meal-mate.188b28718c0be0695c90.png",
+    "index.html": "/seths-portfolio/index.html",
+    "main.9b45402d.css.map": "/seths-portfolio/static/css/main.9b45402d.css.map",
+    "main.212b7937.js.map": "/seths-portfolio/static/js/main.212b7937.js.map",
+    "787.f2cdb3ab.chunk.js.map": "/seths-portfolio/static/js/787.f2cdb3ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b45402d.css",
+    "static/js/main.212b7937.js"
+  ]
+}
