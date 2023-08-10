@@ -432,10 +432,3 @@ button[type="submit"]:hover {
     padding-top: 20px;  
   }
 }
-
-@media (max-width: 540px) {
-  .skills-section img {
-    margin: 20px;
-  }
-}
-
