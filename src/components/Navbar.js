@@ -1,33 +1,81 @@
-import React from 'react';
-
+import React from "react";
+import { Link } from "react-scroll";
 function Navbar() {
-    return (
-        <nav className="navbar navbar-expand-lg">
-            <div className="container">
-                <div className="navbar-brand">SETH SCHOENERT</div>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ml-auto">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#about-me">About Me</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#resume">Resume</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    );
+  return (
+    <nav className="navbar navbar-expand-lg">
+      <div className="container">
+        <button
+          onClick={() => window.scrollTo(0, 0)}
+          className="navbar-brand"
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          SETH SCHOENERT
+        </button>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+                  <Link
+                    className="category"
+                    to="aboutSkills"
+                    offset={-59}
+                    duration={500}
+                  >
+                    <a href="aboutSkills" className="nav-link active">
+                      About Me
+                    </a>
+                  </Link>
+                </li>
+            <li className="nav-item">
+                  <Link
+                    className="category"
+                    to="Portfolio"
+                    offset={-59}
+                    duration={500}
+                  >
+                    <a href="Portfolio" className="nav-link active">
+                      Porfolio
+                    </a>
+                  </Link>
+                </li>
+            <li className="nav-item">
+                  <Link
+                    className="category"
+                    to="Contact"
+                    offset={-100}
+                    duration={500}
+                  >
+                    <a href="Contact" className="nav-link active">
+                      Contact
+                    </a>
+                  </Link>
+                </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#resume">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;
-

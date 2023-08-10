@@ -6,6 +6,7 @@ import LandingSection from './components/LandingSection';
 import AboutSkills from './components/AboutSkills'
 import Portfolio from './components/Porfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const appStyle = {
@@ -17,9 +18,16 @@ return (
   <div style={appStyle}>
       <Navbar />
       <LandingSection />
+      <div className='aboutSkills'>
       <AboutSkills />
+      </div>
+      <div className="Portfolio">
       <Portfolio />
+      </div>
+      <div className='Contact'>
       <Contact />
+      </div>
+      <Footer />
   </div>
 );
 
