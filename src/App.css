@@ -127,14 +127,6 @@
   
 }
 
-/* .skills-section {
-  background-color: #daddd8;
-  color:#1c1c1c;
-  border: solid 0px;
-  border-radius: 20px;
-  background-size: 60%;
-} */
-
 .about-me-section h2, .skills-section h2 {
   text-align: center;
   font-family: "pretendard", sans-serif;
@@ -378,7 +370,12 @@ button[type="submit"]:hover {
 
 @media (max-width: 650px) {
   .project-image {
-    max-width: 50%;
+    background-size: cover;
+    height:auto;
+  }
+  .project-wrapper {
+    max-height: 30vh;
+    margin: 2%;
   }
 }
 
@@ -401,7 +398,7 @@ button[type="submit"]:hover {
 @media (max-width: 991px) {
   .navbar-toggler-icon {
     filter: invert(1); 
-    background-color: #daddd8; 
+    background-color: #ecebe4; 
   
   }
 }
