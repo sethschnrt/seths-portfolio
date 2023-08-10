@@ -8,6 +8,7 @@ function LandingSection() {
                 <div className="first-name">SETH</div>
                 <div className="last-name">SCHOENERT</div>
                 <p>Fullstack Developer</p>
+                <a className="resumeButton" href="/assets/resume1.pdf" target="_blank" rel="noopener noreferrer">Download My Resume</a>
             </div>
             
         </section>

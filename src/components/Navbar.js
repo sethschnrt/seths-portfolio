@@ -67,7 +67,7 @@ function Navbar() {
                   </Link>
                 </li>
             <li className="nav-item">
-              <a className="nav-link" href="#resume">
+              <a className="nav-link" href="/assets/resume1.pdf" target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </li>

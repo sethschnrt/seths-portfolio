@@ -108,7 +108,28 @@
 
 .overlay-content p {
   font-size: 1.5rem; 
+  margin-bottom: 20px;
 }
+
+.overlay-content a {
+  margin-top: 10px;
+}
+.resumeButton {
+  padding: 10px;
+  border: solid 5px #daddd8;
+  border-radius: 20px;
+  background-color: #ecebe4;
+  color: #1c1c1c;
+  font-family: "pretendard", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   text-decoration: none;
+   margin-top: 10px;
+}
+
+.resumeButton:hover {
+  background-color: #daddd8;
+} 
 
 /* About me / skills sections */
 
