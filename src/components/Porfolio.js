@@ -16,7 +16,7 @@ function Portfolio() {
                     <img src={techBlogImage} alt="Tech Blog" className="project-image"/>
                     <div className="project-content">
                         <h3>Tech Blog</h3>
-                        <p>Short description of the project...</p>
+                        <p>Create and collaborate on discussions about technology.</p>
                     </div>
                 </div>
                 <div className="project-buttons">
@@ -29,7 +29,7 @@ function Portfolio() {
                     <img src={weatherDashboardImage} alt="Weather Dashboard" className="project-image"/>
                     <div className="project-content">
                         <h3>Weather Dashboard</h3>
-                        <p>Short description of the project...</p>
+                        <p>View the current weather as well as a five-day forecast for any city.</p>
                     </div>
                 </div>
                 <div className="project-buttons">
@@ -42,7 +42,7 @@ function Portfolio() {
                     <img src={noteTakerImage} alt="Note Taker" className="project-image"/>
                     <div className="project-content">
                         <h3>Note Taker</h3>
-                        <p>Short description of the project...</p>
+                        <p>Create notes and save them to local storage for later reference.</p>
                     </div>
                 </div>
                 <div className="project-buttons">
@@ -55,7 +55,7 @@ function Portfolio() {
                     <img src={mealMateImage} alt="Meal Mate" className="project-image"/>
                     <div className="project-content">
                         <h3>MealMate</h3>
-                        <p>Short description of the project...</p>
+                        <p>Search for an ingredient and receive meal suggestions, each paired with a recommended cocktail.</p>
                     </div>
                 </div>
                 <div className="project-buttons">
@@ -68,7 +68,7 @@ function Portfolio() {
                     <img src={blurbImage} alt="Blurb" className="project-image"/>
                     <div className="project-content">
                         <h3>Blurb</h3>
-                        <p>Short description of the project...</p>
+                        <p>Express your thoughts and emotions through posts that include GIFs.</p>
                     </div>
                 </div>
                 <div className="project-buttons">
@@ -81,7 +81,7 @@ function Portfolio() {
                     <img src={employeeTrackerImage} alt="Employee Tracker" className="project-image"/>
                     <div className="project-content">
                         <h3>Employee Tracker</h3>
-                        <p>Short description of the project...</p>
+                        <p>Command line tool to manage a database of company departments, roles, and employees.</p>
                     </div>
                 </div>
                 <div className="project-buttons">

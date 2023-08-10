@@ -63,9 +63,10 @@
 /* landing section */
 
 .landing-section {
-  height: 75vh; 
+  min-height: 75vh;
+  height: auto; 
   background-image: url('./assets/boatt_establishing_shot_during_golden_hour__Douglass_Fir_Forest_44a0de50-fcf3-4436-a0c4-dca4b2d26adf.png');
-  background-size: 100%; 
+  background-size: cover; 
   background-position: center; 
   background-blend-mode: overlay; 
   background-color: rgba(0, 0, 0, .55); 
@@ -166,8 +167,8 @@
 .listFlex {
   margin-right: 0px;
   margin-top: 5px;
-  background-color: #daddd8;
-  border: solid 0px;
+  background-color: #ecebe4;
+  border: solid 5px #daddd8;
   border-radius: 20px;
 }
 
@@ -196,20 +197,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 .project-wrapper {
   flex: 0 1 calc(50% - 2%); 
   margin: 1%;  
+  min-height: 200px;
 }
 
 .project {
   display: flex;
   align-items: center;
-  background-color: #DADDD8;
+  background-color: #ecebe4;
   color: #1c1c1c;
   border-radius: 20px;
-  border: 5px solid #ecebe4;
+  border: 5px solid #daddd8;
   margin-bottom: 20px; 
 }
 
@@ -222,9 +225,14 @@
   overflow: hidden;
 }
 
+.project-image img {
+  height: 150px;
+  width: auto;
+}
+
 .project-content {
   flex: 1;
-  background-color: #daddd8;
+  background-color: #ecebe4;
   padding: 1em;
   color: #1c1c1c;
 }
@@ -253,11 +261,11 @@
 
 .btn-live, .btn-repo {
   padding: 10px 15px;
-  border: solid 5px #ecebe4;
+  border: solid 5px #daddd8;
   border-radius: 20px; 
   text-decoration: none;
   text-align: center;
-  background-color: #daddd8; 
+  background-color: #ecebe4; 
   color: #1c1c1c; 
   transition: background-color 0.3s ease;
   font-family: "pretendard", sans-serif;
@@ -266,7 +274,7 @@
 }
 
 .btn-live:hover, .btn-repo:hover {
-  background-color: #eef0f2; 
+  background-color: #daddd8; 
 }
 
 /* Contact Section */
@@ -291,10 +299,11 @@
   max-height: 400px;
   width: 100%;
   padding: 1em;
-  background-color: #daddd8; /* Or any other color that fits the theme */
+  background-color: #ecebe4; 
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   color:#1c1c1c;
+  border: solid 5px #daddd8;
 }
 
 .form-group {
@@ -333,4 +342,66 @@ button[type="submit"]:hover {
   color: red;
   font-size: 0.8em;
   margin-top: 0.2em;
+}
+
+/* media queries */
+
+@media (max-width: 1162px) {
+  .sections-container {
+    flex-direction: column;
+  }
+  .about-me-section {           
+    padding: 1em; 
+    padding-top: 2em;     
+  }
+  .skills-section {
+    padding: .5em;
+    padding-bottom: 2.5em;
+  }
+}
+
+@media (max-width: 1290px) {
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-image {
+    max-width: 30%;
+  }
+  
+}
+
+@media (max-width: 875px) {
+  .project-image {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 650px) {
+  .project-image {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 745px) {
+  .landing-section {
+    flex-direction: column;
+  }
+
+  .portrait {
+    margin-bottom: 20px;  
+    align-self: center;   
+  }
+
+  .overlay-content {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler-icon {
+    filter: invert(1); 
+    background-color: #daddd8; 
+  
+  }
 }
