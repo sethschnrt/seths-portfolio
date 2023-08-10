@@ -189,13 +189,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 .project-wrapper {
   flex: 0 1 calc(50% - 2%); 
   margin: 1%;  
-  min-height: 200px;
+  min-height: auto;
 }
 
 .project {
@@ -338,6 +338,16 @@ button[type="submit"]:hover {
 
 /* media queries */
 
+@media (max-width: 1290px) {
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-image {
+    max-width: 30%;
+  }
+  
+}
+
 @media (max-width: 1162px) {
   .sections-container {
     flex-direction: column;
@@ -352,30 +362,17 @@ button[type="submit"]:hover {
   }
 }
 
-@media (max-width: 1290px) {
-  .projects-container {
-    flex-direction: column;
-  }
-  .project-image {
-    max-width: 30%;
-  }
+@media (max-width: 991px) {
+  .navbar-toggler-icon {
+    filter: invert(1); 
+    background-color: #ecebe4; 
   
+  }
 }
 
 @media (max-width: 875px) {
   .project-image {
     max-width: 40%;
-  }
-}
-
-@media (max-width: 650px) {
-  .project-image {
-    background-size: cover;
-    height:auto;
-  }
-  .project-wrapper {
-    max-height: 30vh;
-    margin: 2%;
   }
 }
 
@@ -395,10 +392,50 @@ button[type="submit"]:hover {
   }
 }
 
-@media (max-width: 991px) {
-  .navbar-toggler-icon {
-    filter: invert(1); 
-    background-color: #ecebe4; 
-  
+@media (max-width: 650px) {
+  .project-image {
+    background-size: cover;
+    height:auto;
+  }
+  .skills-section {
+    padding: 2em;
+  }
+  .skills-section img {
+    width: 25px; 
+    height: auto;
+    margin: 10px;  
+  }
+  .project-wrapper {
+    margin: 2%;
   }
 }
+
+@media (max-width: 580px) {
+
+  .project-wrapper {
+    flex: 0 1 calc(100% - 2%);  
+  }
+
+  .project {
+    flex-direction: column; 
+  }
+
+  .project-image {
+    max-width: 100%;  
+    margin-right: 0;  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 0;  
+  }
+
+  .project-content {
+    padding-top: 20px;  
+  }
+}
+
+@media (max-width: 540px) {
+  .skills-section img {
+    margin: 20px;
+  }
+}
+
