@@ -460,4 +460,8 @@ button[type="submit"]:hover {
     height: auto;
     margin: 10px;  
   }
+  .portrait {
+    width: 200px;
+    height: auto;
+  }
 }
