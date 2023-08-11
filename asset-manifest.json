@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.65719777.css",
-    "main.js": "/static/js/main.a6e49f29.js",
+    "main.js": "/static/js/main.62a7b6fc.js",
     "static/js/787.f2cdb3ab.chunk.js": "/static/js/787.f2cdb3ab.chunk.js",
     "static/media/boatt_establishing_shot_during_golden_hour__Douglass_Fir_Forest_44a0de50-fcf3-4436-a0c4-dca4b2d26adf.png": "/static/media/boatt_establishing_shot_during_golden_hour__Douglass_Fir_Forest_44a0de50-fcf3-4436-a0c4-dca4b2d26adf.867161e5913bc548da97.png",
     "static/media/blurb.png": "/static/media/blurb.ae39ef565790f9d96625.png",
@@ -13,11 +13,11 @@
     "static/media/meal-mate.png": "/static/media/meal-mate.188b28718c0be0695c90.png",
     "index.html": "/index.html",
     "main.65719777.css.map": "/static/css/main.65719777.css.map",
-    "main.a6e49f29.js.map": "/static/js/main.a6e49f29.js.map",
+    "main.62a7b6fc.js.map": "/static/js/main.62a7b6fc.js.map",
     "787.f2cdb3ab.chunk.js.map": "/static/js/787.f2cdb3ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65719777.css",
-    "static/js/main.a6e49f29.js"
+    "static/js/main.62a7b6fc.js"
   ]
 }
