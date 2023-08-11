@@ -7,7 +7,6 @@ import AboutSkills from './components/AboutSkills'
 import Portfolio from './components/Porfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
   const appStyle = {
