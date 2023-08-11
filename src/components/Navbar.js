@@ -37,9 +37,9 @@ function Navbar() {
                     offset={-59}
                     duration={500}
                   >
-                    <a href="aboutSkills" className="nav-link active">
+                    <div href="aboutSkills" className="nav-link active">
                       About Me
-                    </a>
+                    </div>
                   </Link>
                 </li>
             <li className="nav-item">
@@ -49,9 +49,9 @@ function Navbar() {
                     offset={-59}
                     duration={500}
                   >
-                    <a href="Portfolio" className="nav-link active">
+                    <div href="Portfolio" className="nav-link active">
                       Porfolio
-                    </a>
+                    </div>
                   </Link>
                 </li>
             <li className="nav-item">
@@ -61,9 +61,9 @@ function Navbar() {
                     offset={-100}
                     duration={500}
                   >
-                    <a href="Contact" className="nav-link active">
+                    <div href="Contact" className="nav-link active">
                       Contact
-                    </a>
+                    </div>
                   </Link>
                 </li>
             <li className="nav-item">
